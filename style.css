@@ -1,20 +1,23 @@
 *{
     background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
 }
 p{
     margin: auto;
     padding: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
-.list{
+ul{
     text-align: left;
     font-size: 24px;
     margin: auto;
     padding: auto;
+    list-style: none;
+    display: flex;
 }
-.photo{
-    background-origin: padding-box;
-    height: auto;
-    width: auto;
+
+li{
+    flex: 1;
     padding: auto;
+    margin: 40px;
 }
